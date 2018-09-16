@@ -24,9 +24,10 @@ if (isset($_GET['reset']) && $_GET['reset'] == 1)
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <link href="style/style.css" type="text/css" rel="stylesheet" media="all" />
-        <title>Jeu d'Echec</title>
+        <title>Chess from Jeu d'Echec</title>
     </head>
     <body>
+        <h3> Fork from <a href="https://github.com/Noxalus/PHP-Chess">Noxalus PHP Chess</a>
         <?php
         // Board
         if (!isset($_SESSION['board']))
