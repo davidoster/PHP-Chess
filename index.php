@@ -27,7 +27,7 @@ if (isset($_GET['reset']) && $_GET['reset'] == 1)
         <title>Chess from Jeu d'Echec</title>
     </head>
     <body>
-        <h3> Fork from <a href="https://github.com/Noxalus/PHP-Chess">Noxalus PHP Chess</a>
+        <h3> Fork from <a href="https://github.com/Noxalus/PHP-Chess">Noxalus PHP Chess</a></h3>
         <?php
         // Board
         if (!isset($_SESSION['board']))
